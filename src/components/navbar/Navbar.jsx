@@ -12,11 +12,11 @@ const Navbar =() => {
         </ul>
     )
     return (
-        <nav className="bg-blue-300 top-0 sticky shadow-md">
-            <div className="lg:flex lg:justify-between items-center py-3 lg:px-3">
-                <div className="left py-3 lg:py-0">
+        <nav className="bg-blue-300 top-0 sticky shadow-md z-50 ">
+            <div className="lg:flex lg:justify-between items-center py-3 lg:px-3 ">
+                <div className="left py-3 lg:py-0 ">
                     <Link to="/">
-                        <h2 className="font-bold text-white text-2xl text-center">SHop</h2>
+                        <h2 className="font-bold text-white text-2xl text-center ">SHop</h2>
                     </Link>
                 </div>
                 <div className="right flex justify-center mb-4 lg:mb-0">
